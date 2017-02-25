@@ -1,0 +1,10 @@
+PULL REQUEST:
+cd [go to git folder]
+git add -A
+git commit -m” [message] “
+git push
+
+
+CLONE:
+cd Documents
+git clone [url]
