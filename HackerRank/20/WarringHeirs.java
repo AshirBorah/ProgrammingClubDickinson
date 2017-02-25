@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 
  * @author cameronsimmons
  * @author Connor Ford
- *
+ * url: http://users.dickinson.edu/~hugginsk/courses/2017_spring/cs232s17/labs/lab05.html
  */
 public class WarringHeirs {
 
