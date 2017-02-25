@@ -1,4 +1,5 @@
 #!/bin/python3
+# https://www.hackerrank.com/challenges/happy-ladybugs
 import sys
 from collections import Counter
 
