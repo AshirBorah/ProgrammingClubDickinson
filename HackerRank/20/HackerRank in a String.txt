@@ -1,0 +1,39 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+//https://www.hackerrank.com/contests/rookierank-2/challenges/hackerrank-in-a-string
+//Fia
+
+public class Solution {
+
+    public static void main(String[] args) {
+        String answer = "hackerrank";
+        Scanner in = new Scanner(System.in);
+        int q = in.nextInt();
+        
+        for (int i=0; i<q;i++){
+            String s = in.next();
+            
+            int times=0;
+            
+            for (int j=0; j< s.length(); j++){
+                if (s.charAt(j) == answer.charAt(times)){
+                    times++;
+                }              
+                    if (times==10){
+                        break;
+                    }
+                    
+            }
+            if (times==10){
+                System.out.println("YES");
+            }else{
+                System.out.println("NO");
+            }
+        }
+    }
+    
+}
